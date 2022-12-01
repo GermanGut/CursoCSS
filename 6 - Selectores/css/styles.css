@@ -1,0 +1,141 @@
+/* SELECTORES */
+
+/* 
+    Selectores simples
+        Selectores elementalesç
+            Selector universal
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+        Selectores de atributo
+        id -> id del elemento
+        clase -> clase deñ elemento
+        otros atributos
+        [atributo]
+        [atributo=valor]
+        [atributo^=valor]   si comienza con esa palabra
+        [atributo*=valor]   cualquier lugar
+        [atributo$=valor]   si termina con esa palabra
+        [atributo|=valor]   para idioma
+    Selectores compuestos
+        Selectores agrupados    se agrupan con comas
+        Selectores Combinadores
+            Selector descendiente
+            Selector de hermano siguiente +
+            (Si el elemento eat dentro de otro elemento es HIJO)
+            (Si estan en el mismo nivel son HERMANOS)
+            Selector de hermanos siguientes  ~ (AltGr + 4)
+        Pseudoclases - Pseudoelementos
+*/
+
+/* *{
+    background-color: lightcoral;
+}
+
+h1 {
+    background-color: lightcyan;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+ul {
+    background-color: burlywood;
+}
+
+li {
+    background-color: cornflowerblue;
+} */
+
+/* #title {
+    background-color: lightgreen;
+} */
+
+/* .title {
+    background-color: rgb(188, 143, 184);
+}
+
+.text {
+    background-color: lightsteelblue;
+}
+
+[href] {
+    background-color: mediumpurple;
+}
+
+[href="https://google.com"] {
+    background-color: chartreuse;
+}
+
+/* #9 */
+/*
+[href^="color"] {
+    background-color: lightgoldenrodyellow;
+}
+
+[href*="modo"] {
+    background-color: brown;
+}
+
+[href$="rojo"] {
+    background-color: cyan;
+}
+
+[lang|="en"] {
+    background-color: rgb(223, 20, 30);
+} */
+
+/* #10 Selectores agrupados*/
+/* .text {
+    background-color: slateblue;
+}
+
+.text-2 {
+    background-color: slateblue;
+}
+
+.text-3 {
+    background-color: slateblue;
+}
+
+.text-4 {
+    background-color: slateblue;
+} */
+
+/* .text, .text-2, .text-3, .text-4 {
+    background-color: slateblue;
+} */
+
+/* #11 Agrupados */
+/* h2 {
+    background-color: teal;
+} */
+
+/* div .title-2 {
+    background-color: aqua;
+} */
+
+
+/* #12 Selector hermano */
+.text-2 + .title-2 {
+    background-color: rgb(255, 232, 127);
+}
+
+/* #13 Hijo directo */
+.container > p {
+    background-color: chocolate;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

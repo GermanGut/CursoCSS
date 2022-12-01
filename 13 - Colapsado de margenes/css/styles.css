@@ -1,0 +1,54 @@
+/* 
+    PRIMER CASO
+    LOS MARGENES VERTICALES COLAPSAN
+    si usamos juntos
+    margin-bottom y margin-top SE SOLAPAN
+
+    IMPORTANTE DE IR EMPUJANDO LOS ELEMENTOS HACIA ABAJO
+    margin-bottom
+
+    EN MARGENES HORIZONTALES SE SUMAN SIN NINGUN PROBLEMA
+
+    SEGUNDO CASO -> PADRES A HIJOS
+*/
+
+
+body {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+.header {
+    background-color: lightcoral;
+    height: 100px;
+    margin-bottom: 20px;
+    /* overflow: hidden;       1 SOLUCION    */
+    /* padding-top: 0.1px;    2 SOLUCION  */
+    border-top: 0.1px solid lightcoral;
+}
+
+.title {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.box-1, 
+.box-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+}
+
+/* .box-2 {
+    *margin-top: 20px;
+    margin-top: 30px;    Solo se agregarian 10px, porque se solapan 20px 
+} */
+
+.box-1 {
+    margin-bottom: 30px;
+}
+
